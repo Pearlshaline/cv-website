@@ -5,7 +5,7 @@ import { GraduationCap, BookOpen, School } from "lucide-react";
 
 const education = [
   {
-    degree: "Bachelor of Science in Information Technology",
+    degree: "BS in Information Technology",
     school: "St. Paul University Philippines",
     location: "Tuguegarao City, Cagayan",
     period: "2023 - Present",
@@ -22,8 +22,8 @@ const education = [
       "Coputer Network Systems",
       "Human Computer Interaction",
       "System Integration and Architecture",
-      "Introduction to Computing ",
-    ],
+      "Introduction to Computing "
+    ]
   },
    {
     degree: "Senior High School",
@@ -35,7 +35,7 @@ const education = [
     icon: School,
     highlight: null,
     highlightDesc: null,
-    courses: [],
+    courses: []
   },
   {
     degree: "Junior High School",
@@ -47,7 +47,7 @@ const education = [
     icon: School,
     highlight: null,
     highlightDesc: null,
-    courses: [],
+    courses: []
   },
   {
     degree: "Elementary School",
@@ -59,7 +59,7 @@ const education = [
     icon: School,
     highlight: null,
     highlightDesc: null,
-    courses: [],
+    courses: []
   },
 ];
 
