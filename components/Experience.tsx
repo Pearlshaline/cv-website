@@ -4,10 +4,10 @@ import { useEffect, useRef } from "react";
 import { Award, Calendar, MapPin, Users } from "lucide-react";
 
 const certifications = [
-  { title: "Certificate of Membership", org: "JPCS – SPUP Chapter", year: "2025–2026"},
-  { title: "Certificate of Membership", org: "JPCS National", year: "2025–2026"},
-  { title: "Certificate of Participation", org: "ITE Convention 2025 – Innovate, Transform, Shaping a Smarter World", year: "2025"},
-  { title: "Certificate of Participation", org: "ITE Convention 2024 – Sustainable Energy: IT & Engineering for a Greener Tomorrow", year: "2024"},
+  { title: "Certificate of Membership", org: "JPCS - SPUP Chapter", year: "2025-2026"},
+  { title: "Certificate of Membership", org: "JPCS National", year: "2025-2026"},
+  { title: "Certificate of Participation", org: "ITE Convention 2025 - Innovate, Transform, Shaping a Smarter World", year: "2025"},
+  { title: "Certificate of Participation", org: "ITE Convention 2024 - Sustainable Energy: IT & Engineering for a Greener Tomorrow", year: "2024"},
   { title: "Certificate of Participation", org: "IT Cybersecurity Roadshow", year: "2025"},
   { title: "Certificate of Participation", org: "SITE Film Festival 2025", year: "2025"},
   { title: "Certificate of Participation", org: "The Art of Filmmaking Workshop", year: "2025"},
@@ -29,15 +29,15 @@ const events = [
     description: "Annual film festival celebrating creativity and storytelling within the IT and Engineering community.",
   },
   {
-    event: 'ITE Convention 2025 – "Innovate, Transform, Shaping a Smarter World"',
+    event: 'ITE Convention 2025 - "Innovate, Transform, Shaping a Smarter World"',
     venue: "St. Paul University Philippines, Tuguegarao City, Cagayan",
-    date: "March 26–28, 2025",
+    date: "March 26-28, 2025",
     description: "Multi-day convention showcasing innovations in information technology and engineering.",
   },
   {
-    event: 'ITE Convention 2024 – "Sustainable Energy: IT & Engineering for a Greener Tomorrow"',
+    event: 'ITE Convention 2024 - "Sustainable Energy: IT & Engineering for a Greener Tomorrow"',
     venue: "St. Paul University Philippines, Tuguegarao City, Cagayan",
-    date: "April 17–19, 2024",
+    date: "April 17-19, 2024",
     description: "Convention focused on sustainable technology and its integration with engineering practices.",
   },
 ];
@@ -128,8 +128,8 @@ export default function Experience() {
           </h3>
           <div className="grid sm:grid-cols-2 gap-4">
             {[
-              { org: "JPCS – Junior Philippine Computer Society", role: "Member", period: "2025–2026" },
-              { org: "JPCS-SPUP Chapter", role: "Member", period: "2025–2026" },
+              { org: "JPCS - Junior Philippine Computer Society", role: "Member", period: "2025-2026" },
+              { org: "JPCS-SPUP Chapter", role: "Member", period: "2025-2026" },
             ].map((a) => (
               <div key={a.org} className="flex items-center justify-between p-4 rounded-xl bg-muted-surface border border-custom">
                 <div>
