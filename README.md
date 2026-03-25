@@ -14,7 +14,7 @@ A modern, fully responsive CV/portfolio website built with AI-assisted developme
 This project was built using **v0.dev**, Vercel's AI-powered UI generation tool, as the primary development accelerator.
 
 ### v0.dev Project
-(./screenshots/v0.dev_screenshot.png) 
+![v0 dev Screenshot](./screenshots/v0.dev_screenshot.png) 
 
 ### Prompt Used on v0.dev
 
@@ -68,10 +68,10 @@ DESIGN:
 - Defaults to **dark mode**
 
 ### Drak Mode
-(./screenshots/dark_mode.png) 
+![Dark Mode Screenshot](./screenshots/dark_mode.png) 
 
 ### Light mode
-(./screenshots/light_mode.png) 
+![Light Mode Screenshot](./screenshots/light_mode.png) 
 
 ### 📱 Responsive Design
 - Mobile-first layout
@@ -86,7 +86,7 @@ DESIGN:
 - Scroll-triggered fade-in animations on all sections
 
 ### Mobile Responsive 
-(./screenshots/mobile_responsive.png) 
+![Mobile Responsive](./screenshots/mobile_responsive.png) 
 
 ### 📄 CV Sections
 | Section | Content |
