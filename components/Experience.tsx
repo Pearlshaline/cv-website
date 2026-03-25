@@ -8,7 +8,7 @@ const certifications = [
   { title: "Certificate of Membership", org: "JPCS National", year: "2025–2026"},
   { title: "Certificate of Participation", org: "ITE Convention 2025 – Innovate, Transform, Shaping a Smarter World", year: "2025"},
   { title: "Certificate of Participation", org: "ITE Convention 2024 – Sustainable Energy: IT & Engineering for a Greener Tomorrow", year: "2024"},
-  { title: "Certificate of Participation", org: "IT Cybersecurity Roadshow", year: "2025", },
+  { title: "Certificate of Participation", org: "IT Cybersecurity Roadshow", year: "2025"},
   { title: "Certificate of Participation", org: "SITE Film Festival 2025", year: "2025"},
   { title: "Certificate of Participation", org: "The Art of Filmmaking Workshop", year: "2025"},
   { title: "Certificate of Completion", org: "National Service Training Program (NSTP)", year: "2025" },

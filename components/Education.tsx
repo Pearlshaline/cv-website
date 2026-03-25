@@ -126,7 +126,7 @@ export default function Education() {
                     </div>
 
                     {/* Capstone highlight */}
-                    {edu.highlight && edu && (
+                    {edu.highlight && (
                       <div className="mt-4 p-4 rounded-xl bg-accent/5 border border-accent/20">
                         <p className="text-xs font-mono text-accent uppercase tracking-wide mb-1.5">
                           ✦ {edu}
