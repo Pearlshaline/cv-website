@@ -2,7 +2,6 @@
 
 import { Github, Linkedin, Mail, Download, ArrowDown } from "lucide-react";
 import { useEffect, useState } from "react";
-import profile from "../public/profile.jpg"; 
 
 export default function Hero() {
   const [visible, setVisible] = useState(false);
@@ -118,7 +117,7 @@ export default function Hero() {
             {/* Avatar */}
             <div className="relative w-56 h-56 sm:w-64 sm:h-64 rounded-full border-2 border-accent/50 bg-gradient-to-br from-purple-500/20 to-blue-500/20 flex items-center justify-center overflow-hidden">
               <img
-                src="profile.jpg"
+                src="/profile.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
