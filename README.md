@@ -4,7 +4,7 @@
 
 A modern, fully responsive CV/portfolio website built with AI-assisted development using **Next.js 15**, **Shadcn UI**, and **Tailwind CSS**.
 
-🌐 **Live Demo:** [your-name.vercel.app](https://cv-website-black.vercel.app)  
+🌐 **Live Demo:** [https://cv-website-black.vercel.app/](https://cv-website-black.vercel.app)  
 📁 **Repository:** [github.com/Pearlshaline/cv-website](https://github.com/Pearlshaline/cv-website)
 
 ---
