@@ -4,7 +4,7 @@
 
 A modern, fully responsive CV/portfolio website built with AI-assisted development using **Next.js 15**, **Shadcn UI**, and **Tailwind CSS**.
 
-🌐 **Live Demo:** [your-name.vercel.app](https://your-name.vercel.app)  
+🌐 **Live Demo:** [your-name.vercel.app](https://cv-website-black.vercel.app)  
 📁 **Repository:** [github.com/Pearlshaline/cv-website](https://github.com/Pearlshaline/cv-website)
 
 ---
@@ -14,7 +14,7 @@ A modern, fully responsive CV/portfolio website built with AI-assisted developme
 This project was built using **v0.dev**, Vercel's AI-powered UI generation tool, as the primary development accelerator.
 
 ### v0.dev Project
- 
+(./screenshots/v0.dev_screenshot.png) 
 
 ### Prompt Used on v0.dev
 
@@ -67,16 +67,26 @@ DESIGN:
 - Smooth CSS variable transitions between themes
 - Defaults to **dark mode**
 
+### Drak Mode
+(./screenshots/dark_mode.png) 
+
+### Light mode
+(./screenshots/light_mode.png) 
+
 ### 📱 Responsive Design
 - Mobile-first layout
 - Hamburger menu on small screens
 - Adapts gracefully from 320px to 1440px+
+(./screenshots/mobile_responsive.png)
 
 ### 🎨 Custom Design System
 - CSS variables for consistent theming across dark/light modes
 - Custom fonts: Playfair Display, DM Sans, JetBrains Mono
 - Animated floating background orbs on hero section
 - Scroll-triggered fade-in animations on all sections
+
+### Mobile Responsive 
+(./screenshots/mobile_responsive.png) 
 
 ### 📄 CV Sections
 | Section | Content |
@@ -181,7 +191,7 @@ This site is deployed on **Vercel** — the recommended platform for Next.js app
 5. Leave all settings as default — Vercel auto-detects Next.js
 6. Click **"Deploy"** ✅
 
-Your site will be live at `https://your-project-name.vercel.app` 
+Your site will be live at `https://cv-website-black.vercel.app` 
 
 ---
 
@@ -192,10 +202,10 @@ To complete the documentation requirements, add screenshots to a `/screenshots` 
 ```bash
 mkdir screenshots
 # Add these files:
-(./screenshots/v0.dev_screenshot.png)   
-(./screenshots/dark_mode.png)         
-(./screenshots/light_mode.png)      
-(./screenshots/mobile_responsive.png)
+# screenshots/v0-generation.png     ← screenshot of v0.dev prompt/output
+# screenshots/dark-mode.png         ← screenshot of website in dark mode
+# screenshots/light-mode.png        ← screenshot of website in light mode
+# screenshots/mobile.png            ← screenshot of mobile responsive view
 ```
 
 Then update the image references in this README.
