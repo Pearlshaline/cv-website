@@ -5,7 +5,7 @@
 A modern, fully responsive CV/portfolio website built with AI-assisted development using **Next.js 15**, **Shadcn UI**, and **Tailwind CSS**.
 
 🌐 **Live Demo:** [your-name.vercel.app](https://your-name.vercel.app)  
-📁 **Repository:** [github.com/Pearlshaline/cv-website](https://github.com/Pearlshaline)
+📁 **Repository:** [github.com/Pearlshaline/cv-website](https://github.com/Pearlshaline/cv-website)
 
 ---
 
@@ -14,7 +14,7 @@ A modern, fully responsive CV/portfolio website built with AI-assisted developme
 This project was built using **v0.dev**, Vercel's AI-powered UI generation tool, as the primary development accelerator.
 
 ### v0.dev Project
-> (./screenshots/v0.dev_screenshot.png)
+ 
 
 ### Prompt Used on v0.dev
 
@@ -66,12 +66,6 @@ DESIGN:
 - Powered by `next-themes`
 - Smooth CSS variable transitions between themes
 - Defaults to **dark mode**
-
-> 📸 **Dark Mode Screenshot**  
-> (./screenshots/dark_mode.png)
-
-> ☀️ **Light Mode Screenshot**  
-> (./screenshots/light_mode.png)
 
 ### 📱 Responsive Design
 - Mobile-first layout
@@ -187,7 +181,7 @@ This site is deployed on **Vercel** — the recommended platform for Next.js app
 5. Leave all settings as default — Vercel auto-detects Next.js
 6. Click **"Deploy"** ✅
 
-Your site will be live at `https://your-project-name.vercel.app` in under 2 minutes.
+Your site will be live at `https://your-project-name.vercel.app` 
 
 ---
 
@@ -198,10 +192,13 @@ To complete the documentation requirements, add screenshots to a `/screenshots` 
 ```bash
 mkdir screenshots
 # Add these files:
-# screenshots/v0-generation.png     ← screenshot of v0.dev prompt/output
-# screenshots/dark-mode.png         ← screenshot of website in dark mode
-# screenshots/light-mode.png        ← screenshot of website in light mode
-# screenshots/mobile.png            ← screenshot of mobile responsive view
+(./screenshots/v0.dev_screenshot.png)   
+(./screenshots/dark_mode.png)         
+(./screenshots/light_mode.png)      
+(./screenshots/mobile_responsive.png)
 ```
 
 Then update the image references in this README.
+
+# cv-website
+
