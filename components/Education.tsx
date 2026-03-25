@@ -12,6 +12,10 @@ const education = [
     status: "In Progress",
     statusColor: "text-yellow-400 border-yellow-400/30 bg-yellow-400/10",
     icon: GraduationCap,
+
+    highlight: null,
+    highlightDesc: null,
+
     courses: [
       "Data Structures & Algorithms",
       "Advanced Database Systems",
@@ -23,7 +27,7 @@ const education = [
       "Human Computer Interaction",
       "System Integration and Architecture",
       "Introduction to Computing "
-    ]
+    ],
   },
    {
     degree: "Senior High School",
@@ -35,7 +39,7 @@ const education = [
     icon: School,
     highlight: null,
     highlightDesc: null,
-    courses: []
+    courses: [],
   },
   {
     degree: "Junior High School",
@@ -47,7 +51,7 @@ const education = [
     icon: School,
     highlight: null,
     highlightDesc: null,
-    courses: []
+    courses: [],
   },
   {
     degree: "Elementary School",
@@ -59,7 +63,7 @@ const education = [
     icon: School,
     highlight: null,
     highlightDesc: null,
-    courses: []
+    courses: [],
   },
 ];
 
@@ -129,10 +133,10 @@ export default function Education() {
                     {edu.highlight && (
                       <div className="mt-4 p-4 rounded-xl bg-accent/5 border border-accent/20">
                         <p className="text-xs font-mono text-accent uppercase tracking-wide mb-1.5">
-                          ✦ {edu}
+                          ✦ {edu.highlight}
                         </p>
                         <p className="text-sm text-muted-foreground font-body leading-relaxed">
-                          {edu}
+                          {edu.highlightDesc}
                         </p>
                       </div>
                     )}
