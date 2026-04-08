@@ -68,16 +68,16 @@ DESIGN:
 - Defaults to **dark mode**
 
 ### Drak Mode
-![Dark Mode Screenshot](./screenshots/dark_mode.png) 
+![Dark Mode Screenshot](./screenshots/dark.png) 
 
 ### Light mode
-![Light Mode Screenshot](./screenshots/light_mode.png) 
+![Light Mode Screenshot](./screenshots/light.png) 
 
 ### 📱 Responsive Design
 - Mobile-first layout
 - Hamburger menu on small screens
 - Adapts gracefully from 320px to 1440px+
-(./screenshots/mobile_responsive.png)
+(./screenshots/responsive.png)
 
 ### 🎨 Custom Design System
 - CSS variables for consistent theming across dark/light modes
