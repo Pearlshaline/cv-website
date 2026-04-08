@@ -77,7 +77,7 @@ DESIGN:
 - Mobile-first layout
 - Hamburger menu on small screens
 - Adapts gracefully from 320px to 1440px+
-(./screenshots/responsive.png)
+
 
 ### 🎨 Custom Design System
 - CSS variables for consistent theming across dark/light modes
@@ -86,7 +86,7 @@ DESIGN:
 - Scroll-triggered fade-in animations on all sections
 
 ### Mobile Responsive 
-![Mobile Responsive](./screenshots/mobile_responsive.png) 
+![Mobile Responsive](./screenshots/responsive.png) 
 
 ### 📄 CV Sections
 | Section | Content |
