@@ -10,8 +10,6 @@ const projects = [
     description:
       "A fully responsive personal CV and portfolio website built with Next.js 15 and Shadcn UI. Features dark/light mode, smooth scroll animations, and a clean professional layout to showcase skills and experience.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
-    status: "Live",
-    statusColor: "text-green-400 border-green-400/30 bg-green-400/10",
     github: "",
   },
   {
@@ -20,9 +18,7 @@ const projects = [
     description:
       "A social media web where users can post tweets, follow other users, and like posts. Built with Laravel and MySQL, featuring user authentication and a real-time-style feed.",
     tech: ["Laravel", "HTML", "MySQL", "Tailwind CSS"],
-    status: "Completed",
-    statusColor: "text-blue-400 border-blue-400/30 bg-blue-400/10",
-    github: "https://github.com/Pearlshaline/Lab_HandsOn",
+        github: "https://github.com/Pearlshaline/Lab_HandsOn",
   },
   {
     title: "Movies",
@@ -30,8 +26,6 @@ const projects = [
     description:
       "A movie browsing web app where users can explore a catalog of films, add titles to a personal watchlist, and rate movies. Built with Laravel and MySQL with a clean, responsive interface.",
     tech: ["Laravel", "HTML", "MySQL", "Tailwind CSS"],
-    status: "Completed",
-    statusColor: "text-blue-400 border-blue-400/30 bg-blue-400/10",
     github: "https://github.com/Pearlshaline/activity",
   },
 ];
@@ -62,13 +56,6 @@ export default function Projects() {
               key={project.title}
               className="group flex flex-col p-6 rounded-2xl bg-card-surface border border-custom card-hover"
             >
-              <div className="flex items-start justify-between mb-4">
-                <div className="text-3xl"></div>
-                <span className={`text-xs font-mono px-2.5 py-1 rounded-full border ${project.statusColor}`}>
-                  {project.status}
-                </span>
-              </div>
-
               <p className="text-xs font-mono text-muted-foreground uppercase tracking-wide mb-2">
                 {project.type}
               </p>

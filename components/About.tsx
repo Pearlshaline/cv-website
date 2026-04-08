@@ -29,7 +29,7 @@ export default function About() {
         {/* Section header */}
         <div className="mb-14">
           <h2 className="font-display text-4xl sm:text-5xl font-bold">
-            Who I Am
+            About Me
           </h2>
           <div className="mt-3 w-16 h-0.5 bg-accent" />
         </div>
@@ -38,7 +38,7 @@ export default function About() {
           {/* Bio */}
           <div className="space-y-5">
   <p className="text-base text-muted-foreground font-body leading-relaxed">
-    Hello! I&apos;m <span className="text-accent font-medium">Pearlshaline Gumiran</span>, a
+     I&apos;m <span className="text-accent font-medium">Pearlshaline Gumiran</span>, a
     3rd-year Bachelor of Science in Information Technology student at{" "}
     <span className="text-[rgb(var(--text))] font-medium">St. Paul University Philippines</span>{" "}
     in Tuguegarao City, Cagayan.

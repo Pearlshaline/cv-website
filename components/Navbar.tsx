@@ -35,15 +35,11 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        {/* Logo */}
-        <a href="" className="flex items-center gap-2 group">
-          <div className="w-8 h-8 rounded-lg bg-accent flex items-center justify-center glow-accent-sm group-hover:scale-110 transition-transform">
-            <Code2 className="w-4 h-4 text-white" />
-          </div>
+        
           <span className="font-display font-semibold text-sm tracking-wide hidden sm:block">
-            Pearl<span className="text-accent">.</span>dev
+            Pearlshaline Gumiran
           </span>
-        </a>
+       
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-1">

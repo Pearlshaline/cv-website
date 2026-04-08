@@ -44,9 +44,7 @@ export default function Hero() {
         >
 
           <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.1] mb-4">
-            Pearlshaline
-            <br />
-            <span className="gradient-text">Gumiran</span>
+            <span className="gradient-text">Information Technology Student</span>
           </h1>
 
           <p className="text-base text-muted-foreground font-body leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8">
@@ -83,7 +81,7 @@ export default function Hero() {
               <Mail className="w-4 h-4" />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/Pearlshaline"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-lg border border-custom bg-card-surface flex items-center justify-center text-muted-foreground hover:text-accent hover:border-accent transition-all hover:scale-110"
@@ -110,8 +108,6 @@ export default function Hero() {
           }`}
         >
           <div className="relative">
-            {/* Spinning ring */}
-            <div className="absolute inset-0 rounded-full border-2 border-dashed border-purple-400/30 animate-spin-slow" style={{ margin: '-16px' }} />
             {/* Glow */}
             <div className="absolute inset-0 rounded-full glow-accent blur-md opacity-50" />
             {/* Avatar */}
@@ -125,15 +121,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
-      {/* Scroll indicator */}
-      <a
-        href="#about"
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 text-muted-foreground hover:text-accent transition-colors animate-bounce"
-      >
-        <span className="text-xs font-mono">scroll</span>
-        <ArrowDown className="w-4 h-4" />
-      </a>
     </section>
   );
 }
