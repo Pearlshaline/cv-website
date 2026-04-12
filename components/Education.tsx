@@ -8,7 +8,7 @@ const education = [
     degree: "Bachelor of Science in Information Technology",
     school: "St. Paul University Philippines",
     location: "Tuguegarao City, Cagayan",
-    period: "2023 - 2027",
+    period: "2023 - 2026",
     icon: GraduationCap,
     highlight: "Capstone Project",
     highlightDesc:

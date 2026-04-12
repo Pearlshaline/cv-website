@@ -48,12 +48,12 @@ export default function Hero() {
           </h1>
 
           <p className="text-base text-muted-foreground font-body leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8">
-            A passionate IT student with hands-on experience in web development, 
-            creating responsive and user-friendly applications. I am passionate 
-            about using technology to build meaningful digital solutions and continuously
-            improving my skills through real-world projects and learning.
-          </p>
-
+          A passionate IT student with experience in web development, 
+          creating responsive and user-friendly applications. I am passionate 
+          about using technology to build meaningful digital solutions and continuously
+          improving my skills through real-world projects and learning.
+        </p>
+        
           {/* CTA Buttons */}
           <div className="flex flex-wrap items-center gap-3 justify-center lg:justify-start mb-8">
             <a
